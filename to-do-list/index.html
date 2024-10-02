@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/?size=100&id=q6OKDrR6BxFR&format=png&color=000000"
+      type="x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>To-do list</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-1">
+        <img class="img-roket" src="img/rocket.png" alt="Rocket icon" />
+        Lista de Presença
+      </h1>
+      <div class="input-f">
+        <input
+          class="input-field"
+          type="text"
+          placeholder="Adicione uma nova tarefa"
+          id="task-input"
+        />
+        <button type="button" id="add-task">
+          Criar <img src="img/rocket.svg" height="13px" alt="Add icon" />
+        </button>
+      </div>
+    </div>
+
+    <div class="output-f">
+    </div>
+    <!-- Task list output box -->
+   
+    <!-- Tasks will be dynamically added here -->
+    <!-- <div class="list">
+      <a href="to-do.html" class="styled-button">Visit List</a>
+    </div> -->
+
+    <script src="fetch-api.js"></script>
+  </body>
+</html>
